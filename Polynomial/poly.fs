@@ -3,7 +3,7 @@ module Polynomial
 open System
 
 // Type structure
-    
+     
     type Polynomial = Polynomial of list<int>
 
     let PolyPrint (Polynomial poly) = 
